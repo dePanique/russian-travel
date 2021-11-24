@@ -1,0 +1,11 @@
+.cover__background {
+  display: block;
+  width: inherit;
+  height: inherit;
+  max-height: 740px;
+  background-image: url(./../../../images/cover/DoBaykala.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  text-decoration: none;
+}
