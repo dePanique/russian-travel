@@ -5,3 +5,7 @@
 Одностраничный сайт с инересными местами России
 Для создания сайта использовались:
 HTML, CSS, Visual Studio Code, GitBash, Figma
+
+# Сайт доступен по ссылке
+
+https://depanique.github.io/russian-travel/index.html
