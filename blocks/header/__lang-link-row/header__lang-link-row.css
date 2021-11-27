@@ -1,17 +1,19 @@
 .header__lang-link-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-block-start: 0;
-    padding-block-end: 0;
-    margin-top: 18px;
-    margin-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  margin-top: 18px;
+  margin-bottom: 6px;
 }
 
 @media screen and (max-width: 767px) {
   .header__lang-link-row {
     margin-top: calc(14px + (100vw - 320px) * (4 / 448));
-    }
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
 }

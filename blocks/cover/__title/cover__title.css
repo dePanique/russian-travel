@@ -22,7 +22,6 @@
     width: calc(288px + (100vw - 320px) * (272 / 448));
     font-size: calc(32px + (100vw - 320px) * (40 / 448));
     line-height: calc(35px + (100vw - 320px) * (41 / 448));
-    font-weight: 900;
     padding-bottom: 16px;
   }
 }

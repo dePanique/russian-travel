@@ -1,8 +1,7 @@
 .cover__overlay {
   display: block;
   width: inherit;
-  height: inherit;
-  max-height: 740px;
+  min-height: calc(100vw / 1.6);
   background-color: rgba(42, 44, 47, .3);
   display: flex;
   flex-direction: column;
@@ -13,4 +12,10 @@
 
 .cover__overlay:hover {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-height: calc(1280px / 1.6);
+  }
 }

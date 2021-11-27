@@ -1,4 +1,5 @@
 .cover__subtitle {
+  /*Если пишу margin: 0; то значение margin-block-start становится 1em (TODO)*/
   margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;

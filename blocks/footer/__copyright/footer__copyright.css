@@ -11,12 +11,18 @@
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
-  min-height: 16px;
+  margin-left: auto;
+  display: inline-block;
+  width: 186px;
+  text-align: right;
 }
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
+    width: 186px;
+    margin-left: 0;
     line-height: 14px;
     margin-top: 48px;
+    text-align: left;
   }
 }

@@ -2,7 +2,4 @@
   box-sizing: border-box;
   width: 100%;
   max-width: 1184px;
-  height: calc(100vw / 1.6);
-  max-height: 740px;
-  box-shadow: 3px 3px 3px rgba(31, 28, 28, 0.459)
 }
