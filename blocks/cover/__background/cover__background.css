@@ -2,7 +2,7 @@
   display: block;
   min-height: calc(100vw / 1.6);
   background-image: url(./../../../images/cover/DoBaykala.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   box-sizing: border-box;
   text-decoration: none;
@@ -10,6 +10,6 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    min-height: calc(1280px / 1.6);
+    min-height: 740px;
   }
 }
