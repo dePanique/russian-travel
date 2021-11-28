@@ -6,13 +6,11 @@
   margin-block-end: 0;
   padding-block-start: 0;
   padding-block-end: 0;
-  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   transition: opacity 0.5s ease;
-  text-transform: uppercase;
   font-weight: 400;
 }
 
@@ -28,6 +26,5 @@
   .header__lang-link {
     font-size: calc(18px + (100vw - 320px) * (6 / 448));
     line-height: calc(20px + (100vw - 320px) * (8 / 448));
-    width: 22px;
   }
 }

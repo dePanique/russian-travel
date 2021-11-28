@@ -21,18 +21,10 @@
   opacity: 80%;
 }
 
-.footer__link:last-of-type {
-  margin-right: 0;
-}
-
 @media screen and (max-width: 767px) {
   .footer__link {
     margin-top: 32px;
     font-size: 24px;
     line-height: 24px;
-  }
-
-  .footer__link:first-of-type {
-    margin-top: 0;
   }
 }

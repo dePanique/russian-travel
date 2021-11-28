@@ -8,25 +8,25 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro {
-  margin-left: calc(148px + (100vw - 1280px) * (100 / 256));
+    margin-left: calc(148px + (100vw - 1280px) * (100 / 256));
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
-  width: calc(690px - (100vw - 1024px) * (30 / 256));
-  padding-top: calc(92px + (100vw - 1024px) * (4 / 256));
-  margin-left: auto;
-  margin-left: calc(48px + (100vw - 1024px) * (22 / 256));
+    width: calc(690px - (100vw - 1024px) * (30 / 256));
+    margin-left: auto;
+    padding-top: calc(92px + (100vw - 1024px) * (4 / 256));
+    margin-left: calc(48px + (100vw - 1024px) * (22 / 256));
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-  align-self: center;
-  max-width: 720px;
-  margin-left: calc(16px + (100vw - 320px) * (8 / 448));
-  margin-right: calc(16px + (100vw - 320px) * (8 / 448));
-  padding-top: calc(88px + (100vw - 768px) * (24 / 448));
+    align-self: center;
+    margin-left: calc(16px + (100vw - 320px) * (8 / 448));
+    max-width: 720px;
+    padding-top: calc(88px + (100vw - 768px) * (24 / 448));
+    margin-right: calc(16px + (100vw - 320px) * (8 / 448));
   }
 }
